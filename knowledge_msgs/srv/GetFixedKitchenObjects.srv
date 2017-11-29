@@ -5,4 +5,3 @@ string frame_id
 string[] names
 geometry_msgs/Vector3[] bounding_boxes
 geometry_msgs/Pose[] poses
-bool success
