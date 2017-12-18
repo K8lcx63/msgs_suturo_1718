@@ -3,3 +3,4 @@ ObjectDetection detection
 ---
 
 geometry_msgs/PointStamped poke_position
+string error_message
