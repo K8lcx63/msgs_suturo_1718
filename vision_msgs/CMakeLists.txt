@@ -7,9 +7,6 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
 )
 
-add_message_files(FILES ObjectInformation.msg)
-add_service_files(FILES GetObjectInfo.srv)
-
 generate_messages(
   DEPENDENCIES
   std_msgs
