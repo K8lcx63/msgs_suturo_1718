@@ -13,6 +13,9 @@ generate_messages(
   geometry_msgs
 )
 
+add_message_files(FILES ObjectInformation.msg) 
+add_service_files(FILES GetObjectInfo.srv) 
+
 catkin_package(
         CATKIN_DEPENDS message_runtime geometry_msgs std_msgs 
 )
