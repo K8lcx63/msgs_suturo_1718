@@ -1,5 +1,10 @@
+uint8 DIRECTION_LEFT = 1
+uint8 DIRECTION_RIGHT = 2
+
+uint8 direction
 ObjectDetection detection
 
 ---
 
 geometry_msgs/PointStamped poke_position
+string error_message

@@ -7,7 +7,12 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
 )
 
-add_service_files(FILES LogStartAction.srv LogFinishAction.srv GetFixedKitchenObjects.srv)
+add_service_files(
+  FILES
+  LogStartAction.srv 
+  LogFinishAction.srv
+  GetFixedKitchenObjects.srv 
+  ProcessPercivedObject.srv)
 
 generate_messages(
   DEPENDENCIES
