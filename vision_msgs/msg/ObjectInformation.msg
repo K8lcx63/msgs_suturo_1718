@@ -1,2 +1,2 @@
-int8 isStanding
+int32 isStanding
 string information
