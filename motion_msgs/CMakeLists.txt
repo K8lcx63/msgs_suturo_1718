@@ -11,6 +11,7 @@ add_action_files(
    DIRECTORY action   
    FILES
    MovingCommand.action
+   Gripper.action
  )
 
 generate_messages(
