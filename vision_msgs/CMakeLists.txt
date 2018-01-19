@@ -5,15 +5,19 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   std_msgs
   message_generation
+  sensor_msgs
+
 )
 
-add_message_files(FILES ObjectInformation.msg)
-add_service_files(FILES GetObjectInfo.srv)
+add_message_files(FILES ObjectInformation.msg ObjectClouds.msg)
+add_service_files(FILES GetObjectInfo.srv GetObjectClouds.srv)
 
 generate_messages(
   DEPENDENCIES
   std_msgs
   geometry_msgs
+  sensor_msgs
+
 )
 
 catkin_package(
