@@ -8,6 +8,11 @@ uint8 MOVE_LEFT_ARM=3
 ---
 #result definition
 bool successful
+uint8 status
+uint8 SUCCESS=0
+uint8 OUT_OF_RANGE=1
+uint8 COLLISION=2
+uint8 UNMANAGEBLE_ERROR=3
 ---
 #feedback definition
 #bool finished

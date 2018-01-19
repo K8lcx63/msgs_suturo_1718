@@ -1,0 +1,13 @@
+#goal definition
+uint8 gripper
+float64 position
+float64 effort
+uint8 UNKNOWN=0
+uint8 LEFT=1
+uint8 RIGHT=2
+---
+#result definition
+bool successful
+---
+#feedback definition
+#bool finished
