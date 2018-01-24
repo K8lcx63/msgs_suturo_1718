@@ -7,9 +7,9 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
 )
 
-add_message_files(FILES TrainingData.msg PerceivedObject.msg)
+add_message_files(FILES TrainingData.msg)
 
-add_service_files(FILES GetFixedKitchenObjects.srv Classify.srv)
+add_service_files(FILES GetFixedKitchenObjects.srv Classify.srv BeliefPerceivedObject.srv)
 
 generate_messages(
   DEPENDENCIES
