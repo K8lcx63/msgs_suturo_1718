@@ -9,7 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 )
 
-add_message_files(FILES ObjectInformation.msg ObjectClouds.msg)
+add_message_files(FILES ObjectInformation.msg ObjectClouds.msg Histogram.msg)
 add_service_files(FILES GetObjectInfo.srv GetObjectClouds.srv)
 
 generate_messages(
