@@ -1,6 +1,5 @@
 string object_label
 ---
-geometry_msgs/PoseStamped robot_pose
 geometry_msgs/PointStamped storage_place_position
 float64 storage_place_width
 float64 storage_place_height
