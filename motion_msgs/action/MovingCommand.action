@@ -5,6 +5,8 @@ uint8 UNKNOWN=0
 uint8 MOVE_STANDARD_POSE=1
 uint8 MOVE_RIGHT_ARM=2
 uint8 MOVE_LEFT_ARM=3
+uint8 MOVE_RIGHT_GRIPPER=4
+uint8 MOVE_LEFT_GRIPPER=5
 ---
 #result definition
 bool successful
