@@ -1,0 +1,2 @@
+string object_label
+geometry_msgs/PoseStamped object_pose
