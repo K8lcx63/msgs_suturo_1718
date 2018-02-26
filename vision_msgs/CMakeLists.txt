@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(vision_msgs)
+project(suturo_vision_msgs)
 
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
@@ -9,8 +9,8 @@ find_package(catkin REQUIRED COMPONENTS
 
 )
 
-add_message_files(FILES ObjectInformation.msg ObjectClouds.msg Histogram.msg)
-add_service_files(FILES GetObjectInfo.srv GetObjectClouds.srv)
+add_message_files(FILES ObjectsInfo.msg)
+add_service_files(FILES objects.srv)
 
 generate_messages(
   DEPENDENCIES
