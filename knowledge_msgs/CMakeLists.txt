@@ -7,9 +7,22 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
 )
 
-add_message_files(FILES TrainingData.msg Gripper.msg GraspObject.msg DropObject.msg)
+add_message_files(
+  FILES 
+  PerceivedObject.msg 
+  Gripper.msg 
+  GraspObject.msg 
+  DropObject.msg
+)
 
-add_service_files(FILES GetFixedKitchenObjects.srv Classify.srv PerceivedObject.srv StoragePlace.srv)
+add_service_files(
+  FILES 
+  GetFixedKitchenObjects.srv 
+  Classify.srv 
+  StoragePlace.srv 
+  EmptyGripper.srv 
+  ObjectsToPick.srv
+)
 
 generate_messages(
   DEPENDENCIES
