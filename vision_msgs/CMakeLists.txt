@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(suturo_vision_msgs)
+project(vision_suturo_msgs)
 
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
