@@ -1,0 +1,6 @@
+string[] labels
+int16[] index
+
+---
+
+geometry_msgs/PoseStamped[] object_poses
