@@ -1,7 +1,11 @@
 #goal definition
-uint8 gripper
+#position of the space between the grippers in meters
 float64 position
+#force in newton (default =  20)
 float64 effort
+#which grpper to open/closed
+uint8 gripper
+#Constants for the gripper value
 uint8 UNKNOWN=0
 uint8 LEFT=1
 uint8 RIGHT=2

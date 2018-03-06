@@ -2,6 +2,7 @@
 geometry_msgs/PoseStamped goal_pose
 
 uint8 command
+#Constants for command value
 uint8 UNKNOWN=0
 uint8 MOVE_STANDARD_POSE=1
 uint8 MOVE_RIGHT_ARM=2
@@ -26,6 +27,7 @@ string grasped_object_label
 #result definition
 bool successful
 uint8 status
+#Constants for status value
 uint8 SUCCESS=0
 uint8 OUT_OF_RANGE=1
 uint8 COLLISION=2
