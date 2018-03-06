@@ -1,12 +1,27 @@
 #goal definition
-geometry_msgs/PointStamped point_stamped
+geometry_msgs/PoseStamped goal_pose
+
 uint8 command
 uint8 UNKNOWN=0
 uint8 MOVE_STANDARD_POSE=1
 uint8 MOVE_RIGHT_ARM=2
 uint8 MOVE_LEFT_ARM=3
-uint8 MOVE_RIGHT_GRIPPER=4
-uint8 MOVE_LEFT_GRIPPER=5
+uint8 POKE_RIGHT_ARM=4
+uint8 POKE_LEFT_ARM=5
+uint8 GRASP_RIGHT_ARM=6
+uint8 GRASP_LEFT_ARM=7
+uint8 PLACE_RIGHT_ARM=8
+uint8 PLACE_LEFT_ARM=9
+
+// Label of object which shell be grasped.
+// Required because when an object gets grasped by robot,
+// a message gets published from subgroup 'motion', which object
+// has been grasped with which gripper (left or right).
+// When the object gets placed somewhere, another message is published.
+// These messages get published for knowledge's beliefstate, so that
+// the knowledge component knows when an object get's grasped/placed somewhere.
+string grasped_object_label
+
 ---
 #result definition
 bool successful
@@ -15,6 +30,7 @@ uint8 SUCCESS=0
 uint8 OUT_OF_RANGE=1
 uint8 COLLISION=2
 uint8 UNMANAGEBLE_ERROR=3
+
 ---
 #feedback definition
 #bool finished
