@@ -14,13 +14,13 @@ uint8 GRASP_LEFT_ARM=7
 uint8 PLACE_RIGHT_ARM=8
 uint8 PLACE_LEFT_ARM=9
 
-// Label of object which shell be grasped.
-// Required because when an object gets grasped by robot,
-// a message gets published from subgroup 'motion', which object
-// has been grasped with which gripper (left or right).
-// When the object gets placed somewhere, another message is published.
-// These messages get published for knowledge's beliefstate, so that
-// the knowledge component knows when an object get's grasped/placed somewhere.
+# Label of object which shell be grasped.
+# Required because when an object gets grasped by robot,
+# a message gets published from subgroup 'motion', which object
+# has been grasped with which gripper (left or right).
+# When the object gets placed somewhere, another message is published.
+# These messages get published for knowledge's beliefstate, so that
+# the knowledge component knows when an object get's grasped/placed somewhere.
 string grasped_object_label
 
 ---
