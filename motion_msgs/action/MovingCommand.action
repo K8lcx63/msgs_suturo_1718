@@ -15,6 +15,9 @@ uint8 PLACE_RIGHT_ARM=8
 uint8 PLACE_LEFT_ARM=9
 uint8 MOVE_CARRY_POSE=10
 
+float64 force
+float64 FORCE_DEFAULT=35
+
 # Label of object which shell be grasped.
 # Required because when an object gets grasped by robot,
 # a message gets published from subgroup 'motion', which object
