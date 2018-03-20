@@ -23,6 +23,7 @@ add_service_files(
   EmptyGripper.srv 
   ObjectsToPick.srv
   GraspIndividual.srv
+  PlaceObject.srv
 )
 
 generate_messages(
