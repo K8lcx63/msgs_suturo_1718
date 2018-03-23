@@ -14,6 +14,8 @@ uint8 GRASP_LEFT_ARM=7
 uint8 PLACE_RIGHT_ARM=8
 uint8 PLACE_LEFT_ARM=9
 uint8 MOVE_CARRY_POSE=10
+uint8 MOVE_CARRY_POSE_RIGHT=11
+uint8 MOVE_CARRY_POSE_LEFT=12
 
 #The force when closing the gripper in newton default is set below
 float64 force
