@@ -1,3 +1,3 @@
 string object_label
-geometry_msgs/Vector3 bounding_box
+string mesh_path
 geometry_msgs/PoseStamped pose
