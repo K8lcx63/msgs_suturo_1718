@@ -13,6 +13,7 @@ add_message_files(
   Gripper.msg 
   GraspObject.msg 
   DropObject.msg
+  PerceivedObjectBoundingBox.msg
 )
 
 add_service_files(
