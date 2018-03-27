@@ -25,6 +25,7 @@ add_service_files(
   ObjectsToPick.srv
   GraspIndividual.srv
   PlaceObject.srv
+  GetObjectAttachedToGripper.srv
 )
 
 generate_messages(
