@@ -26,10 +26,7 @@ add_service_files(
   GraspIndividual.srv
   PlaceObject.srv
   GetObjectAttachedToGripper.srv
-<<<<<<< Updated upstream
-=======
   PushObject.srv
->>>>>>> Stashed changes
 )
 
 generate_messages(
