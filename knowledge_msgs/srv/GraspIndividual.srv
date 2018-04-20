@@ -1,4 +1,5 @@
 string object_label
 ---
-geometry_msgs/PoseStamped grasp_pose
+geometry_msgs/PoseArray grasp_pose_array 
+string[] direction_key
 float64 force
