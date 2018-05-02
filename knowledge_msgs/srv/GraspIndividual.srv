@@ -1,4 +1,4 @@
 string object_label
 ---
-geometry_msgs/PoseArray grasp_pose_array 
+geometry_msgs/PoseArray grasp_pose_array
 float64 force
