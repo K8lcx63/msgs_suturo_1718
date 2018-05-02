@@ -3,7 +3,6 @@
 # else goal_poses is used
 geometry_msgs/PoseStamped goal_pose
 geometry_msgs/PoseArray goal_poses
-string[] direction_key
 
 uint8 command
 #Constants for command value
