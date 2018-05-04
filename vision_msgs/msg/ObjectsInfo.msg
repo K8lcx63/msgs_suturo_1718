@@ -1,5 +1,3 @@
-float32[] normal_features
-uint64[] color_features
+string[] labels
 uint8 object_amount
-string[] object_information
 string object_errors
