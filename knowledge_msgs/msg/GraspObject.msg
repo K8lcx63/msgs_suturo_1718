@@ -1,2 +1,3 @@
 string object_label
 Gripper gripper
+geometry_msgs/PoseStamped grasp_pose

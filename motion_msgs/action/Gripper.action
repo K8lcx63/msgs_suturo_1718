@@ -2,7 +2,7 @@
 #position of the space between the grippers in meters
 float64 position
 #force in newton (default =  20)
-float64 effort
+float64 force
 #which grpper to open/closed
 uint8 gripper
 #Constants for the gripper value

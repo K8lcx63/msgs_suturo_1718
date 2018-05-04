@@ -1,10 +1,13 @@
 #goal definition
+# goal_pose is used when an action, which is not the grasp action is called
+# else goal_poses is used
 geometry_msgs/PoseStamped goal_pose
+geometry_msgs/PoseArray goal_poses
 
 uint8 command
 #Constants for command value
 uint8 UNKNOWN=0
-uint8 MOVE_STANDARD_POSE=1
+uint8 MOVE_DRIVE_POSE=1
 uint8 MOVE_RIGHT_ARM=2
 uint8 MOVE_LEFT_ARM=3
 uint8 POKE_RIGHT_ARM=4
@@ -13,6 +16,13 @@ uint8 GRASP_RIGHT_ARM=6
 uint8 GRASP_LEFT_ARM=7
 uint8 PLACE_RIGHT_ARM=8
 uint8 PLACE_LEFT_ARM=9
+uint8 MOVE_CARRY_POSE=10
+uint8 MOVE_CARRY_POSE_RIGHT=11
+uint8 MOVE_CARRY_POSE_LEFT=12
+
+#The force when closing the gripper in newton default is set below
+float64 force
+float64 FORCE_DEFAULT=35
 
 # Label of object which shell be grasped.
 # Required because when an object gets grasped by robot,
