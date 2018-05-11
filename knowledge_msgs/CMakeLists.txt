@@ -14,6 +14,7 @@ add_message_files(
   GraspObject.msg 
   DropObject.msg
   PerceivedObjectBoundingBox.msg
+  GraspObjectHumanInteraction.msg
 )
 
 add_service_files(

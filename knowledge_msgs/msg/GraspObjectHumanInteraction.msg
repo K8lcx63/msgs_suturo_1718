@@ -1,0 +1,2 @@
+Gripper gripper
+string object_label
