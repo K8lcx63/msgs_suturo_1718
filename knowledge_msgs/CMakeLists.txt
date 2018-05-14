@@ -15,6 +15,7 @@ add_message_files(
   DropObject.msg
   PerceivedObjectBoundingBox.msg
   GraspObjectHumanInteraction.msg
+  SpawnAttachedObject.msg
 )
 
 add_service_files(
